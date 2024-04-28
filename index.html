@@ -28,17 +28,51 @@
             <div>
                 <label for="status">Status</label>
                 <select id="status" name="user_status">
-                    <option></option>
-                    <option></option>
-                    <option></option>
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
                 </select>
             </div>
 
+            <div>
+                <p>
+                    Choose your favorite programming language:
+                </p>
+            </div>
 
+            <div>
+                <label for="html">HTML</label>
+                <input type="radio" id="html" name="language" value="html_language">
+                <label for="css">CSS</label>
+                <input type="radio" id="css" name="language" value="css_language">
+                <label for="javascript">Javascript</label>
+                <input type="radio" id="javascript" name="language" value="javascript">
+            </div>
 
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments_textarea" placeholder="Write in here"></textarea>
+            </div>
 
+            <div>
+                <label for="date">Current Date:</label>
+                <input type="date" id="date">
+            </div>
+            
+            <div>
+                <label for="signup">Sign up for newsletter</label>
+                <input type="checkbox" id="checkboxSignup" name="newsletter_signup">
+            </div>
 
+            <div>
+                <label for="checkboxAgreement">Agree to terms and conditions</label>
+                <input type="checkbox" id="checkboxAgreement" name="agreement_check">
+            </div>
 
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            
         </fieldset>
     </form>
 </body>
